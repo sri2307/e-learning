@@ -1,0 +1,147 @@
+.conference-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.conference {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+  top: 80px;
+  left: 20%;
+}
+
+.add-conference {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 170px;
+  padding: 10px;
+  border-radius: 35px;
+  background-color: #104d80;
+  color: white;
+
+  position: relative;
+  top: 80px;
+  left: 80%;
+}
+.add-conference a {
+  color: white;
+  text-decoration: none;
+}
+
+.conference-table {
+  position: relative;
+  top: 20%;
+}
+
+.conference-table > div {
+  display: none;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+  left: 50%;
+  top: 200px;
+}
+
+.content {
+  background-color: transparent;
+}
+
+.conference-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 80%;
+  height: 500px;
+  background: #f1f1f1;
+  margin: 100px auto 0;
+  word-break: break-all;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.conference-combo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  position: relative;
+}
+
+.conference-combo label {
+  width: 200px;
+}
+.conference-combo input {
+  width: 300px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.conference-tabs {
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  background: rgba(128, 128, 128, 0.075);
+  background: white;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.conference-tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.conference-active-tabs {
+  /* background: white; */
+  background: #104d80;
+  border-bottom: 1px solid transparent;
+  color: white;
+}
+.conference-active-tabs h6 {
+  color: white;
+}
+
+.conference-active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* width: calc(100% + 2px); */
+  height: 5px;
+  background: rgb(88, 147, 241);
+}
+
+.conference-combo button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background: #104d80;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  margin: 20px;
+  left: 200px;
+}
+
+.clear {
+  background: rgb(212, 66, 66) !important;
+}

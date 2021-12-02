@@ -1,6 +1,7 @@
 .header {
-  padding: 15px;
+  padding: 5px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
 .navbar {
   display: flex;
@@ -8,7 +9,32 @@
   align-items: center;
 }
 
+.nav {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  padding: 0px;
+}
+
+.nav .profile {
+  margin: 0px;
+}
+
 .nav .menu {
   height: 30px;
   width: 30px;
+  margin: 0 10px;
+  color: grey;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.nav img {
+  margin-left: 100px;
 }

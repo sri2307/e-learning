@@ -1,0 +1,15 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 30px;
+  border: 1px solid red;
+}
+
+.card span {
+  display: flex;
+}
+
+.rating {
+  display: flex;
+}
